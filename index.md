@@ -9,6 +9,10 @@ title:
   
 
 ## Project Description
+
+Written in C, records radio stations 24/7. The backend machine records several local over-the-internet stations, keeping 34 minute chunks of overlapping chunks of audio and text archived locally on an 8T hard drive. Each machine also sends a copy of the text in smaller overlapping chunks to the database server for searching by the SE app.
+
+
 [Repository](https://github.com/hbremers/Radio)
 
 ## Project Goals
