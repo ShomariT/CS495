@@ -186,6 +186,26 @@ img {
 	
 }
 
+.site-avatar2 {
+  float: left; 
+	width: 200px;
+	height: 200px;
+  margin-right: 5px;
+
+  @include mobile {
+    float: none;
+    display: block;
+    margin: 0 auto;	
+	 width: 5px;  
+	height: 5px; 
+  }
+	
+  img {
+    border-radius: 350px;
+  }
+	
+}
+
 .site-info {
 
   @include mobile {
