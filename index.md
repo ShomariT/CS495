@@ -19,7 +19,7 @@ Written in C, records radio stations 24/7. The backend machine records several l
 1.	Make sure the C compiler and all dependencies are up to date, documented and put on github in a timely manner.
 2.	Add a new process to monitor all processes and restart them if any of them fail.
 3.	When the archive disk is purged of old records, make the DB move the purged record data of the corresponding closed captions records to a new archive table.
-4.	Improve speech-to-text. (There will be a 2nd semester team working on this starting in August for both radio & TV.)
+4.	Improve speech-to-text.
 5.	Add successful & unsuccessful table/s to capture information about what did/didn't record properly.
 6.	Add over-the-air stations.
 7.	Add Satellite Radio.
