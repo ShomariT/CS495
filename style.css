@@ -115,7 +115,7 @@ strong, b {
 
 img {
   max-width: 100%;
-	box-sizing: border-box;
+
 }
 
 // Fixes images in popup boxes from Google Translate
@@ -192,9 +192,10 @@ img {
 }
 
 .site-avatar2 {
-	 float: left;
-  width: 33.33%;
-  padding: 5px;
+	float: left; 
+	width: 200px;
+	height: 200px;
+  margin-right: 5px;
 
   @include mobile {
     float: none;
@@ -206,6 +207,9 @@ img {
 	
   img {
     border-radius: 350px;
+ float: left;
+  width: 33.33%;
+  padding: 5px;
   }
 	
 }
