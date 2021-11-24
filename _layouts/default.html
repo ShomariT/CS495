@@ -29,8 +29,10 @@
         </header>
       </div>
     </div>
-
-    <div style="background: ghostwhite; 
+    
+    <div id="main" role="main" class="container">
+      {{ content }}
+          <div style="background: ghostwhite; 
             font-size: 20px; 
             padding: 10px; 
                         cursor: pointer;
@@ -38,10 +40,6 @@
             margin: 10px;">
   Video in Progress.
 </div>
-    
-    <div id="main" role="main" class="container">
-      {{ content }}
-      
       <div class="row">
         <div class = "column">
        <h1 href="{{ site.baseurl }}/" class="site-avatar2"><img src="{{ site.avatar2 }}" style = "width:80%"/></h1>
