@@ -21,5 +21,3 @@ Written in C, records radio stations 24/7. The backend machine records several l
 3.	When the archive disk is purged of old records, make the DB move the purged record data of the corresponding closed captions records to a new archive table.
 4.	Improve speech-to-text.
 5.	Add successful & unsuccessful table/s to capture information about what did/didn't record properly.
-6.	Add over-the-air stations.
-7.	Add Satellite Radio.
